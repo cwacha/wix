@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>%app_pkgid%</id>
+    <version>%app_version%.%app_revision%</version>
+    <title>%app_pkgid% (portable)</title>
+    <authors>Clemens Wacha &lt;clemens@wacha.ch&gt;</authors>
+    <tags>%app_pkgid%</tags>
+    <summary>%app_displayname%</summary>
+    <description>Package for %app_pkgid%
+Version: %app_version%
+Revision: %app_revision%
+Build: %app_build%
+</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
