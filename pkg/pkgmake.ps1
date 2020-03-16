@@ -41,7 +41,8 @@ function import {
     mkdir BUILD/root -ea SilentlyContinue *> $null
 
     Expand-Archive -Path $BASEDIR\..\ext\*.zip -DestinationPath BUILD/root
-	cp -r -fo ..\src\* BUILD/root
+    cp -r -fo ..\src\* BUILD/root
+    ls .\BUILD\ -include .gitignore -r | rm
 }
 
 function pkg {
